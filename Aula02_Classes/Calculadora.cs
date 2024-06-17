@@ -10,7 +10,7 @@ class Program
         n1 = int.Parse(Console.Readline());
         Console.WriteLine("Digite o segundo número para subtrair: ");
         n2 = int.Parse(Console.Readline());
-        subtracao = n1 + n2;
+        subtracao = n1 - n2;
         Console.WriteLine(subtracao);
         Console.ReadKey();
     }
@@ -35,7 +35,7 @@ class Program
         n1 = int.Parse(Console.Readline());
         Console.WriteLine("Digite o segundo número para multiplicar: ");
         n2 = int.Parse(Console.ReadLine());
-        multiplicar = n1 + n2;
+        multiplicar = n1 * n2;
         Console.WriteLine(" Sua multiplicar de números é: ");
         Console.WriteLine(multiplicar);
         Console.ReadKey();
@@ -48,6 +48,7 @@ class Program
         n1 = int.Parse(Console.ReadLine());
         Console.WriteLine("Digite o segundo número para dividir: ");
         n2 = int.Parse(Console.ReadLine());
+        divisao = n1 / n2;
         Console.WriteLine(" Sua divisao de números é: ");
         Console.WriteLine(divisao);
         Console.ReadKey();
